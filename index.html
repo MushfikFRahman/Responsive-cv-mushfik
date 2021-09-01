@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Mushfik</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"> <i class="bx bx-home nav__icon"></i>Home </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"> <i class="bx bx-user nav__icon"></i>Profile </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link"> <i class="bx bx-book nav__icon"></i>Education </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"> <i class="bx bx-receipt nav__icon"></i>Skills </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"> <i class="bx bx-briefcase-alt nav__icon"></i>Experience </a>
+            </li>
+            <li class="nav__item">
+              <a href="#certification" class="nav__link"> <i class="bx bx-award nav__icon"></i>Certificates</a>
+            </li>
+            <li class="nav__item">
+              <a href="#reference" class="nav__link"> <i class="bx bx-link-external nav__icon"></i>References </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/perfil.jpg" alt="" class="home__img" />
+                <h1 class="home__title">MUSHFIK F <b>RAHMAN</b></h1>
+                <h3 class="home__profession">Web Developer</h3>
+
+                <div>
+                  <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Sultanpur,Satkhira-sadar 9400,Khulna,Bangladesh
+                </span>
+                <span class="home__information"> <i class="bx bx-envelope home__icon"></i> mushfik.rf@gmail.com </span>
+                <span class="home__information"> <i class="bx bx-phone home__icon"></i> 0178-3377951 </span>
+              </div>
+            </div>
+            <!-- Theme change button -->
+            <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i class="bx bxs-cloud-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">Social</h2>
+            <div class="social__container bd-grid">
+              <a href="https://www.linkedin.com/in/mushfikr/" target="_blank" class="social__link">
+                <i class="bx bxl-linkedin-square social__icon"></i> @mushfikr
+              </a>
+              <a href="https://twitter.com/MushfikFRahman" target="_blank" class="social__link">
+                <i class="bx bxl-twitter social__icon"></i> @mushfikFRahman
+              </a>
+              <a href="https://github.com/MushfikFRahman" target="_blank" class="social__link">
+                <i class="bx bxl-github social__icon"></i> @mushfikFRahman
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              I’m a Website Developer. Help the business owner to have an impressive online presence with feature-rich
+              websites for selling products/services. Build effective business solutions that positively impact your
+              bottom line and customer interaction capabilities.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Bachelor of Science</h3>
+                  <span class="education__studies">University of Chittagong</span>
+                  <span class="education__year">2018-2022</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">WEB DEVELOPER</h3>
+                  <span class="education__studies">Self Taught</span>
+                  <span class="education__year">2019-present</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Master of JavaScript</h3>
+                  <span class="education__studies"> FreeCodeCamp</span>
+                  <span class="education__year">2018-2019</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name"><span class="skills__circle"> </span>Html</li>
+                <li class="skills__name"><span class="skills__circle"></span> Css</li>
+                <li class="skills__name"><span class="skills__circle"> </span>JavaScript</li>
+                <li class="skills__name"><span class="skills__circle"> </span>SQL</li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name"><span class="skills__circle"> </span>React Js</li>
+                <li class="skills__name"><span class="skills__circle"> </span>Express</li>
+                <li class="skills__name"><span class="skills__circle"> </span>Node JS</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Web Development</h3>
+                  <span class="experience__COMPANY">From 2019 to present | Upwork Inc</span>
+                  <p class="experience__description">
+                    I found my enthusiasm for website designing 4 years back. In web development, I’m keenly focused on
+                    the client’s needs and goals. I build an optimized professional website design to instantly boost
+                    business credibility, showcase expertise, and attract the right types of customers.
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Content Writting</h3>
+                  <span class="experience__COMPANY">From 2017 to present | Blogger</span>
+                  <p class="experience__description">
+                    I do write Blogs, Articles, Website Content, Case Studies, and any documents on several topics
+                    ensuring top quality. I have got extensive knowledge of SEO and WP website. In addition, I also do
+                    the work of Translation (Bengali to English and Vice versa), Proofreading, and Data Entry work.
+                    Importantly, I have got a lightning-fast hand at typing both in English and Bengali. This will allow
+                    you to get quick work from me.
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Mobile App Development</h3>
+                  <span class="experience__COMPANY">From 2020 to present | Tech Soft</span>
+                  <p class="experience__description">
+                    I make beautiful mobile apps for Android and iOS. I have stated to learn and build React Native apps
+                    with android studio.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">Certificate for compliance</h3>
+                <p class="certificate__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut a, exercitationem incidunt earum
+                </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Certificate of Attendence on Computer Technology</h3>
+                <p class="certificate__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut a, exercitationem incidunt earum
+                </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Certificate for Public Speaking</h3>
+                <p class="certificate__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut a, exercitationem incidunt earum
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <section class="references section" id="references">
+            <h2 class="section-title">References</h2>
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Sr. Director</span>
+                <h3 class="references__title">Mr. Clay Doe</h3>
+                <ul class="references__contact">
+                  <li>Phone:99-777-888</li>
+                  <li>Email:user@example.com</li>
+                </ul>
+              </div>
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Mag. developer</span>
+                <h3 class="references__title">Mr. Robinson Bass</h3>
+                <ul class="references__contact">
+                  <li>Phone:99-777-888</li>
+                  <li>Email:user@example.com</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages__container">
+              <div class="languages__content bd-grid">
+                <li class="languages__name"><span class="languages__circle"></span>English</li>
+                <li class="languages__name"><span class="languages__circle"></span>Bangla</li>
+                <li class="languages__name"><span class="languages__circle"></span>Hindi</li>
+              </div>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name"> Music</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Travel</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name"> Reading</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-dumbbell interests__icon"></i>
+                <span class="interests__name"> Fitness</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
